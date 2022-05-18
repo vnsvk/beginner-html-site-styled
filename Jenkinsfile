@@ -1,3 +1,6 @@
+import groovy.transform.Field
+org.jenkinsci.plugins.pipeline.modeldefinition.parser.RuntimeASTTransformer.SCRIPT_SPLITTING_TRANSFORMATION=true 
+
 pipeline {
     agent any
 pipeline {
