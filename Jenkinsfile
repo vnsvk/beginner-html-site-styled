@@ -3,18 +3,9 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                // 
+                sh 'echo test'
             }
         }
-        stage('Test') { 
-            steps {
-                // 
-            }
-        }
-        stage('Deploy') { 
-            steps {
-                // 
-            }
-        }
+       
     }
 }
